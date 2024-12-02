@@ -158,7 +158,7 @@ function endGame(winStatus) {
   win = winStatus;
   highScore = Math.max(highScore, score);
 
-  video.src = win ? "public/win.mp4" : "public/lose.mp4";
+  video.src = win ? "public.win.mp4" : "public.lose.mp4";
   video.classList.remove("hidden");
   video.play();
 
